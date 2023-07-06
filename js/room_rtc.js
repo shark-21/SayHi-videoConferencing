@@ -23,7 +23,7 @@ if(!roomId){
 console.log(roomId);
 let display_Name = sessionStorage.getItem("displayName")
 if(!display_Name){
-    window.location = 'lobby.html'
+    window.location = 'index.html'
 }
 
 let camera =false

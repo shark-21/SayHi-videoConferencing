@@ -32,7 +32,7 @@ form.addEventListener('submit',(e)=>{
         sessionStorage.setItem("displayName" , e.target.name.value)
 
        const rid = e.target.room.value
-        window.location  =`room.html?room=${rid}`
+        window.location  =`pages/room.html?room=${rid}`
         window.localStorage.setItem('roomID' , rid)
 
 
